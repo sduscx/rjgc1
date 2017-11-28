@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="half_transparent">#20000000</color>
+    <color name="seller_button_no">#af69f1</color>
+    <color name="seller_button_yes">#f30277</color>
+    <color name="table_choose">#00ffea</color>
+    <color name="table_unchoose">#332b2b</color>
+    <color name="grid_choose">#fc59ab</color>
+    <color name="grid_nochoose">#f1f3ea</color>
+    <color name="dish_have">#000000</color>
+    <color name="dish_donthave">#ff0000</color>
+
+</resources>

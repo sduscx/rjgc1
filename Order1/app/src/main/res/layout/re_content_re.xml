@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_re"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.order1.Customer.receive.ReActivity"
+    tools:showIn="@layout/re_app_bar_re">
+    <fragment
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/botm_frg"
+        android:name="com.example.order1.Customer.receive.BottomFragment"
+       ></fragment>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/main_layout"
+        android:layout_above="@+id/botm_frg"
+        android:layout_alignParentTop="true"></FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.order1.Customer.receive.BottomFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/table_frg_linear"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/table_bottom"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textSize="20dp"
+            android:textColor="#00ffea"
+            android:text="桌号" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/friend_bottom"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="顾客" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/query_bottom"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="催单" />
+    </LinearLayout>
+
+</FrameLayout>

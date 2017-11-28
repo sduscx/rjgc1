@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginTop="30dp"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/evaluate_store"
+            android:text="评价商家服务"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/unhappy_store"
+            android:onClick="onClick"
+            android:background="@drawable/unhappy1"
+            android:layout_toLeftOf="@+id/happy_store"/>
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/happy_store"
+            android:onClick="onClick"
+            android:background="@drawable/happy2"
+            android:layout_toLeftOf="@+id/veryhappy_store"/>
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/veryhappy_store"
+            android:onClick="onClick"
+            android:background="@drawable/veryhappy1"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+    <include layout="@layout/detail_ev_stroe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></include>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/evaluate_dish"
+            android:text="评价菜品"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:onClick="onClick"
+            android:id="@+id/unhappy_dish"
+            android:background="@drawable/unhappy1"
+            android:layout_toLeftOf="@+id/happy_dish"/>
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:onClick="onClick"
+            android:id="@+id/happy_dish"
+            android:background="@drawable/happy2"
+            android:layout_toLeftOf="@+id/veryhappy_dish"/>
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:onClick="onClick"
+            android:id="@+id/veryhappy_dish"
+            android:background="@drawable/veryhappy1"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+    <include layout="@layout/detail_ev_dish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></include>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/complain_bottombar"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:id="@+id/complian_Bottomtext"
+        android:text="评价此单，可获积分~"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/submit_evaluation_button"
+        android:text="提交评价"
+        android:textColor="#ffffff"
+        android:onClick="onClick"
+        android:background="#59d178" />
+</LinearLayout>
+</LinearLayout>

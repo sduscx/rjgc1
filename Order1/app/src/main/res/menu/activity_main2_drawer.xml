@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Store">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/left_order"
+            android:title="此次账单" />
+        <item
+            android:id="@+id/left_wifi"
+            android:title="自动联取wifi" />
+
+        <item
+            android:id="@+id/left_point1"
+            android:title="本店积分" />
+        <item
+            android:id="@+id/left_about"
+            android:title="关于本店" />
+
+    </group>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/left_dialog"
+                android:title="与前台对话" />
+            <item
+                android:id="@+id/left_complain"
+                android:title="评价" />
+            <item
+                android:id="@+id/ask_quike"
+                android:title="催单" />
+        </menu>
+    </item>
+
+</menu>
