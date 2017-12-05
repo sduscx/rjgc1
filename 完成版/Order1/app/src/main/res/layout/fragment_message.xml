@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal">
+      <ListView
+          android:layout_width="328dp"
+          android:layout_height="match_parent"
+          android:id="@+id/message_peo"></ListView>
+
+      <RelativeLayout
+          android:id="@+id/relative"
+          android:visibility="gone"
+          android:layout_width="match_parent"
+          android:layout_marginTop="5dp"
+          android:layout_marginLeft="3dp"
+          android:layout_marginRight="3dp"
+          android:layout_height="match_parent">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="60dp"
+             android:layout_alignParentBottom="true"
+             android:id="@+id/linearLayout"
+             >
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:id="@+id/msg_input_edit"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="确定"
+                android:id="@+id/msg_input_btn"/>
+         </LinearLayout>
+         <ListView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_alignParentTop="true"
+             android:id="@+id/message_info"
+             android:layout_above="@+id/linearLayout">
+         </ListView>
+      </RelativeLayout>
+
+   </LinearLayout>
+
+</FrameLayout>

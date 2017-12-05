@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">点餐</string>
+    <string name="title_activity_main2">Welcome</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome</string>
+    <string name="new_custom">参与注册，享积分优惠~</string>
+    <string name="main_word">Welcome</string>
+    <string name="no_score">因为您此次消费过低，积分不予计算...</string>
+    <string name="title_activity_re">Welcome</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
